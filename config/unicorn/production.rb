@@ -37,7 +37,7 @@ listen 9000
 worker_processes 2
 timeout 30
 
-set :rails_env,   "production"
+rails_env = "production"
 
 # Force the bundler gemfile environment variable to
 # reference the capistrano "current" symlink

@@ -33,7 +33,7 @@ stderr_path "/var/www/my_app/shared/log/unicorn.log"
 stdout_path "/var/www/my_app/shared/log/unicorn.log"
  
 # Port configuration
-listen 3000
+listen 9000
 worker_processes 2
 timeout 30
  

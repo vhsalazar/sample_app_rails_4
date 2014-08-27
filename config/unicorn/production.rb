@@ -48,7 +48,7 @@
 
 
 
-root = "/Users/vh5/Documents/Vagrant/capistrano/sample_app_rails_4"
+root = "/var/www/my_app"
 working_directory root
 pid "#{root}/tmp/pids/unicorn.pid"
 stderr_path "#{root}/log/unicorn.log"

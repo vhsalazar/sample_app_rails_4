@@ -36,7 +36,9 @@ stdout_path "/var/www/my_app/shared/log/unicorn.log"
 listen 9000
 worker_processes 2
 timeout 30
- 
+
+set :rails_env,   "production"
+
 # Force the bundler gemfile environment variable to
 # reference the capistrano "current" symlink
 before_exec do |_|
